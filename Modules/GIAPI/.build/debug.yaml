@@ -1,0 +1,91 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "GIAPI-debug.module": ["<GIAPI-debug.module>"]
+  "GIAPIPackageTests-debug.test": ["<GIAPIPackageTests-debug.test>"]
+  "GIAPITests-debug.module": ["<GIAPITests-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<GIAPI-debug.module>"]
+  "test": ["<GIAPI-debug.module>","<GIAPIPackageTests-debug.test>","<GIAPITests-debug.module>"]
+default: "main"
+nodes:
+  "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/Sources/GIAPI/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/Tests/GIAPITests/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI_GIAPI.bundle/rawg-Info.plist":
+    tool: copy-tool
+    inputs: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/Sources/GIAPI/Resources/rawg-Info.plist"]
+    outputs: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI_GIAPI.bundle/rawg-Info.plist"]
+    description: "Copying /Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/Sources/GIAPI/Resources/rawg-Info.plist"
+
+  "<GIAPI-debug.module>":
+    tool: phony
+    inputs: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.build/APIEndpoint.swift.o","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.build/GIAPI.swift.o","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.build/resource_bundle_accessor.swift.o","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.swiftmodule"]
+    outputs: ["<GIAPI-debug.module>"]
+
+  "<GIAPIPackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPIPackageTests.xctest/Contents/MacOS/GIAPIPackageTests"]
+    outputs: ["<GIAPIPackageTests-debug.test>"]
+
+  "<GIAPITests-debug.module>":
+    tool: phony
+    inputs: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPITests.build/GIAPITests.swift.o","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPITests.swiftmodule"]
+    outputs: ["<GIAPITests-debug.module>"]
+
+  "C.GIAPI-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/Sources/GIAPI/APIEndpoint.swift","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/Sources/GIAPI/GIAPI.swift","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.build/DerivedSources/resource_bundle_accessor.swift","<GIAPI-debug.module-resources>"]
+    outputs: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.build/APIEndpoint.swift.o","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.build/GIAPI.swift.o","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.build/resource_bundle_accessor.swift.o","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.swiftmodule"]
+    executable: "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "GIAPI"
+    module-output-path: "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.swiftmodule"
+    import-paths: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug"]
+    temps-path: "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.build"
+    objects: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.build/APIEndpoint.swift.o","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.build/GIAPI.swift.o","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.build/resource_bundle_accessor.swift.o"]
+    other-args: ["-target","arm64-apple-macosx11.0","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-g","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.build/GIAPI-Swift.h","-color-diagnostics","-sdk","/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"]
+    sources: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/Sources/GIAPI/APIEndpoint.swift","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/Sources/GIAPI/GIAPI.swift","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.build/DerivedSources/resource_bundle_accessor.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 8
+
+  "C.GIAPIPackageTests-debug.test":
+    tool: shell
+    inputs: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.build/APIEndpoint.swift.o","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.build/GIAPI.swift.o","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.build/resource_bundle_accessor.swift.o","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPITests.build/GIAPITests.swift.o"]
+    outputs: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPIPackageTests.xctest/Contents/MacOS/GIAPIPackageTests"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/GIAPIPackageTests.xctest/Contents/MacOS/GIAPIPackageTests"
+    args: ["/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug","-o","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPIPackageTests.xctest/Contents/MacOS/GIAPIPackageTests","-module-name","GIAPIPackageTests","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPIPackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.5/macosx","-target","arm64-apple-macosx11.0","-Xlinker","-add_ast_path","-Xlinker","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPITests.swiftmodule","-sdk","/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.GIAPITests-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/Tests/GIAPITests/GIAPITests.swift","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.swiftmodule"]
+    outputs: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPITests.build/GIAPITests.swift.o","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPITests.swiftmodule"]
+    executable: "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "GIAPITests"
+    module-output-path: "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPITests.swiftmodule"
+    import-paths: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug"]
+    temps-path: "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPITests.build"
+    objects: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPITests.build/GIAPITests.swift.o"]
+    other-args: ["-target","arm64-apple-macosx11.0","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-g","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-color-diagnostics","-sdk","/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"]
+    sources: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/Tests/GIAPITests/GIAPITests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 8
+
+  "GIAPI-debug.module-resources":
+    tool: phony
+    inputs: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI_GIAPI.bundle/rawg-Info.plist"]
+    outputs: ["<GIAPI-debug.module-resources>"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/Sources/GIAPI/","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/Tests/GIAPITests/","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/Package.swift","/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

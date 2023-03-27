@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "b16cb8286db9979e56fa7bec0bef8ebbf1543161e0e310a4b6cf93325e9881fe"
+build_start_time: [1679906541, 304003953]
+build_end_time: [1679906543, 980249881]
+inputs:
+  ? "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/.build/arm64-apple-macosx/debug/GIAPI.build/DerivedSources/resource_bundle_accessor.swift"
+  : [1679906541, 149303436]
+  "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/Sources/GIAPI/APIEndpoint.swift": [1679834163, 934574604]
+  "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAPI/Sources/GIAPI/GIAPI.swift": [1679738682, 238104820]
