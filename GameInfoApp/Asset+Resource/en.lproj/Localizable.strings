@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  GameInfoApp
+
+  Created by Zamaludin Abdulah on 27/03/23.
+  
+*/
+
+
+// Tab menu
+"HOME" = "Home";
+"FAVOURITE" = "Favourite";
+"ABOUT" = "About Me";
