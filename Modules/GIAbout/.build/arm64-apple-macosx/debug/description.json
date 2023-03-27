@@ -1,0 +1,157 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAboutPackageTests.xctest/Contents/MacOS/GIAboutPackageTests",
+      "productName" : "GIAboutPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.GIAbout-debug.module" : {
+      "executable" : "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/Sources/GIAbout/GIAbout.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/Sources/GIAbout/View/AboutView.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GIAbout",
+      "moduleOutputPath" : "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.swiftmodule",
+      "objects" : [
+        "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.build/GIAbout.swift.o",
+        "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.build/View/AboutView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx11.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.build/GIAbout-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
+        "-F",
+        "/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.build/GIAbout.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.build/View/AboutView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/Sources/GIAbout/GIAbout.swift",
+        "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/Sources/GIAbout/View/AboutView.swift"
+      ],
+      "tempsPath" : "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.GIAboutTests-debug.module" : {
+      "executable" : "/Applications/Xcode copy.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/Tests/GIAboutTests/GIAboutTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GIAboutTests",
+      "moduleOutputPath" : "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAboutTests.swiftmodule",
+      "objects" : [
+        "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAboutTests.build/GIAboutTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx11.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
+        "-F",
+        "/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode copy.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAboutTests.build/GIAboutTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAboutTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/Tests/GIAboutTests/GIAboutTests.swift"
+      ],
+      "tempsPath" : "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAboutTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

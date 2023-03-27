@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.build/master.swiftdeps"
+  },
+  "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/Sources/GIAbout/GIAbout.swift": {
+    "dependencies": "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.build/GIAbout.d",
+    "object": "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.build/GIAbout.swift.o",
+    "swiftmodule": "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.build/GIAbout~partial.swiftmodule",
+    "swift-dependencies": "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.build/GIAbout.swiftdeps"
+  },
+  "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/Sources/GIAbout/View/AboutView.swift": {
+    "dependencies": "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.build/View/AboutView.d",
+    "object": "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.build/View/AboutView.swift.o",
+    "swiftmodule": "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.build/View/AboutView~partial.swiftmodule",
+    "swift-dependencies": "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.build/View/AboutView.swiftdeps"
+  }
+}

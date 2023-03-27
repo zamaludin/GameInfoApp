@@ -1,0 +1,4 @@
+module GIAbout {
+    header "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/.build/arm64-apple-macosx/debug/GIAbout.build/GIAbout-Swift.h"
+    requires objc
+}

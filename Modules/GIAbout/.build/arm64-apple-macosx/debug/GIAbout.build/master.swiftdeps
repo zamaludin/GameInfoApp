@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "0dd52f8d7a49642b794b5bf25bdcfece28a983147e950a24e506d12ab8086ad4"
+build_start_time: [1679907819, 889461994]
+build_end_time: [1679907824, 934980869]
+inputs:
+  "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/Sources/GIAbout/GIAbout.swift": [1679890945, 136584281]
+  ? "/Users/zamaludin/Documents/Zamal/Dicoding/Expert from cine/ios-cinewatch-main/Modules/GIAbout/Sources/GIAbout/View/AboutView.swift"
+  : [1679891187, 400706768]
